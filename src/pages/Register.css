@@ -1,0 +1,78 @@
+/* ---------- Global ---------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------- Page Container ---------- */
+.auth-page {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* ---------- Card ---------- */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 35px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 28px;
+}
+
+/* ---------- Inputs ---------- */
+.card input {
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.card input:focus {
+  border: 2px solid #fff;
+}
+
+/* ---------- Button ---------- */
+.card button {
+  padding: 12px;
+  background: #fff;
+  color: #333;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #f1f1f1;
+}
+
+/* ---------- Text & Links ---------- */
+.card p {
+  color: #fff;
+  font-size: 14px;
+}
+
+.card a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+}
